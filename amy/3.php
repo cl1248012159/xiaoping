@@ -3,7 +3,7 @@
 <head>
     <?php include('./public/head.php');?>
 </head>
-<body>
+<body class="a_gallery">
     <?php include('./public/top.php');?>
     <?php include('./public/header.php');?>
 

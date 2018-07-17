@@ -3,7 +3,7 @@
 <head>
     <?php include('./public/head.php');?>
 </head>
-<body>
+<body class="a_gallery">
     <?php include('./public/top.php');?>
     <?php include('./public/header.php');?>
 
@@ -63,7 +63,17 @@
             <ul>
                 <?php for($i=0;$i<20;$i++){?>
                     <li>
-                        <div class="zuopin_pic"><a href=""><img src="./images/img_01.png"></a></div>
+                        <div class="zuopin_pic">
+                            <a href="">
+                                <img src="./images/img_01.png">
+                                <div class="zuopin_hover">
+                                    <span class="zp_title">画作题目画作题目画作题目画作题目</span>
+                                    <span class="zp_zz">李大光</span>
+                                    <span class="zz_zc">国家一级画师</span>
+                                    <span class="zp_rmb">RMB:1250 元</span>
+                                </div>
+                            </a>
+                        </div>
                         <div class="zuopin_resource">
                             <a href="">
                                 <img src="./images/shopimg_01.png">
