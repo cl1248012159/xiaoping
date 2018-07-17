@@ -232,4 +232,73 @@ to{opacity:0}
 .a_gallery .zxlist li a img{display:block;width:100%}
 .a_gallery .zxlist li a .biao{position:absolute;top:6px;left:8px;padding:0 8px;background:rgba(0,0,0,.5);color:#fff;line-height:27px}
 .a_gallery .zxlist li a .jjitem{position:absolute;bottom:0;left:0;padding:0 12px 10px;width:100%;background:rgba(0,0,0,.1);color:#fff;text-align:left;font-size:14px;line-height:25px}
-.a_gallery .four_banner a{float:left;width:290px}
+.a_gallery .four_banner{padding:18px 0;}
+.a_gallery .four_banner a{float:left;width:290px;margin-left:15px;}
+.a_gallery .four_banner a:first-child{margin-left:0;}
+.gmblock{
+    background:#fff;
+    margin-bottom:10px;
+}
+.gmbtitle{
+    padding:0 10px;
+    line-height:52px;
+    text-align: left;
+    font-size:18px;border-bottom:1px solid #eeeeee;
+}
+.gmbtitle a{
+    float: right;
+    font-size:12px;
+    color:#666;
+}
+.gmblist{
+    float: left;
+    padding:0 10px;
+}
+.gmblist li{
+    float: left;
+    border-top:1px solid #eee;
+    border-left:1px solid #eeeeee;
+    width:20%;
+    padding:10px;
+}
+.gmblist li:nth-child(1),
+.gmblist li:nth-child(2),
+.gmblist li:nth-child(3),
+.gmblist li:nth-child(4),
+.gmblist li:nth-child(5){
+    border-top:0;
+}
+.gmblist li:nth-child(5n+1){
+    border-left:0;
+}
+.gmbitem a{
+    display: block;
+}
+.gmbitem img{
+    width:128px;
+    height:128px;
+    display: block;
+    margin:0 auto;
+}
+.gmbitem .gmbiname{
+    display: block;
+    text-align: left;
+    font-size:13px;
+    line-height: 18px;
+    color:#666;
+    padding-top:5px;
+}
+.gmbitem .gmbiprice{
+    display: block;
+    text-align: left;
+    font-size:15px;
+    line-height: 20px;
+    color:#ff0057;
+    padding-top:5px;
+}
+
+
+
+
+
+
