@@ -61,13 +61,13 @@
                 <div class="float_clear"></div>
             </div>
 
-            <ul>
+            <ul class="float_clear zxlist">
                 <?php for($i=0;$i<20;$i++){?>
                     <li>
                         <a href="">
                             <img src="./images/test5.png">
                             <span class="biao">人工智能</span>
-                            <span class="jianjie">人工智能人工智能人工智能人工智能人工智能人工智能人工智能</span>
+                            <span class="jjitem">人工智能人工智能人工智能人工智能人工智能人工智能人工智能</span>
                         </a>
                     </li>
                 <?php }?>

@@ -645,6 +645,8 @@ to{opacity:0}
     padding:0 70px 0 40px;
     color:#fff;
     font-size:15px;
+    margin-left:15px;
+    margin-top:30px;
 }
 .list_shengqing{
     float:right;
@@ -666,12 +668,51 @@ to{opacity:0}
     line-height: 55px;
 }
 .jjinfo{
-    font-size:14px;
-    
+    color:#555;
+    font-size:16px;
+    line-height: 26px;
+    padding-left: 15px;
 }
-
-
-
+.zxlist{margin-top:45px;}
+.zxlist li{
+    float: left;
+    width:295px;
+    margin-left:10px;
+    margin-bottom: 20px;
+    padding:7px;
+    background:#fff;
+}
+.zxlist li:nth-child(4n+1){
+    margin-left: 0;
+}
+.zxlist li a{
+    position: relative;
+    display: block;width:100%;
+}
+.zxlist li a img{
+    display: block;
+    width:100%;
+}
+.zxlist li a .biao{
+    position: absolute;
+    top:6px;
+    left:8px;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    line-height: 27px;
+    padding:0 8px;
+}
+.zxlist li a .jjitem{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    color:#fff;
+    font-size: 14px;line-height: 25px;
+    background:rgba(0,0,0,0.1);
+    text-align: left;
+    padding:0 12px 10px;
+}
 
 
 
