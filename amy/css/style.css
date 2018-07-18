@@ -638,6 +638,9 @@ width:100%;}
     display: block;
     line-height: 30px;
 }
+.menu-bd-panel a:hover{
+    background:#f4f4f4;
+}
 .menu-bd-panel a:last-child{
     border-top:1px solid #444;
 }
@@ -645,6 +648,29 @@ width:100%;}
     display: block;
 }
 
+.a_gallery .menu li{
+    position: relative;
+}
 
-
+.menumore{
+    display: none;
+    position: absolute;
+    right:-50%;
+    left:-50%;
+    top:23px;
+    z-index:1;
+    background:#252c34;
+    padding:10px 0;
+}
+.a_gallery .menu li:hover .menumore{
+    display: block;
+}
+.a_gallery .menumore a{
+    color:#999;
+    font-size: 13px;
+    width: 100%;
+}
+.a_gallery .menumore a:hover{
+    background:#f4f4f4;
+}
 

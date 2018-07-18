@@ -8,7 +8,14 @@
         <li><a href="">艺术家</a></li>
         <li><a href="">资讯</a></li>
         <li><a href="">美术用品</a></li>
-        <li><span></span><span></span><span></span></li>
+        <li><span></span><span></span><span></span>
+            <dl class="menumore">
+                <dd><a href="">合作加盟</a></dd>
+                <dd><a href="">关于我们</a></dd>
+                <dd><a href="">帮助中心</a></dd>
+                <dd><a href="">媒体报道</a></dd>
+            </dl>
+        </li>
     </ul>
     <ul class="menu menuright">
         <li><a href="">登录</a></li>
