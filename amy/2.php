@@ -18,21 +18,21 @@
                     <li>
                         <a href=""><span>人物国画</span></a>
                         <dl>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
+                            <dd><a href="">橡皮擦/橡皮泥橡皮擦/橡皮泥</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
                         </dl>
                     </li>
                     <li>
                         <a href=""><span>山水国画</span></a>
                         <dl>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
-                            <dd>伟人头像</dd>
+                            <dd><a href="">伟人头像</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
+                            <dd><a href="">伟人头像</a></dd>
                         </dl>
                     </li>
                     <li>花鸟国画</li>
@@ -52,8 +52,8 @@
                 <li><a href="">伟人头像</a></li>
             </ul>
             <ul class="bread_R">
-                <li class="active"><a href="">推荐作品<i></i></a></li>
-                <li><a href="">最新上架<i></i></a></li>
+                <li class="active desc"><a href="">推荐作品<i></i></a></li>
+                <li class="active asc"><a href="">最新上架<i></i></a></li>
                 <li><a href="">浏览最多<i></i></a></li>
                 <li class="cancel"><a href="">撤销条件</a></li>
             </ul>

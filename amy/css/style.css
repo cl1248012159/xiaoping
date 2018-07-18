@@ -129,11 +129,18 @@ to{opacity:0}
 .a_gallery .info_part3 .to-prev{left:0;background-image:url(../images/to-left.png)}
 .a_gallery .zuopin_nav{padding-top:10px}
 .a_gallery .zuopin_nav li{position:relative;display:inline-block;margin-right:20px;color:#666;font-size:14px;cursor:pointer}
-.a_gallery .zuopin_nav li span{display:block;padding:10px;width:100%;border:1px solid #fff;border-bottom:0;color:#666}
+.a_gallery .zuopin_nav li span{display:block;padding:10px;width:100%;border-bottom:0;color:#666}
 .a_gallery .zuopin_nav li:hover span{border-color:#ccc}
 .a_gallery .zuopin_nav li:not(:last-child) span{padding-right:10px;background:url(../images/getDown1.png) right center no-repeat}
 .a_gallery .special_price a{display:inline-block;padding:0 5px;background:#f36a6a;color:#fff}
-.a_gallery .zuopin_nav li dl{position:absolute;top:42px;z-index:1;display:none;width:100%;border:1px solid #ccc;background:#fff;font-size:12px;line-height:20px;border-top-color:#fff}
+.a_gallery .zuopin_nav li dl{position:absolute;top:41px;z-index:1;display:none;left:0;border:1px solid #ccc;background:#fff;font-size:12px;line-height:20px;border-top-color:#fff}
+.a_gallery .zuopin_nav li dd{line-height: 26px;}
+.a_gallery .zuopin_nav li dd a{white-space:nowrap;line-height: 32px;
+    white-space: nowrap;
+    display: block;padding:0 10px;
+    font-size: 13px;}
+.a_gallery .zuopin_nav li dd:hover{background:#ccc;}
+.a_gallery .zuopin_nav li dd:hover a{color:#fff;}
 .a_gallery .zuopin_nav li:hover dl{display:block}
 .a_gallery .bread{margin-top:20px;padding:0 20px;height:58px;border-radius:5px;background:#e8e6e4}
 .a_gallery .bread li{position:relative;display:inline-block}
@@ -146,7 +153,8 @@ to{opacity:0}
 .a_gallery .bread_R a{float:left;padding:0 5px;border:1px solid #999;background:#fff;font-size:15px;line-height:26px}
 .a_gallery .bread_R .active a{color:#495a80}
 .a_gallery .bread_R a i{float:right;width:16px;height:26px;background-image:url(../images/condition_01.png);background-position:center center;background-repeat:no-repeat;line-height:26px}
-.a_gallery .bread_R .active a i{background-image:url(../images/condition.png)}
+.a_gallery .bread_R .asc a i{background-image:url(../images/condition-asc.png)}
+.a_gallery .bread_R .desc a i{background-image:url(../images/condition-desc.png)}
 .a_gallery .bread_R .cancel a{border-color:#f08f8e;background:#f08f8e;color:#fff}
 .a_gallery .list_zuopin ul{float:left;width:100%}
 .a_gallery .list_zuopin li{float:left;margin-top:50px;width:218px;margin-left:30px;}
