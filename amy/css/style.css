@@ -104,7 +104,7 @@ to{opacity:0}
 .a_gallery .sort li{float:left;margin-right:20px;padding:10px 0 10px 10px;background:url(../images/jiantou.png) left center no-repeat;color:#666;font-size:14px;line-height:20px}
 .a_gallery .daoxiang{float:right;padding-top:10px}
 .a_gallery .galleries{padding:0 10px;width:100%}
-.a_gallery .gallery{padding:40px 0 25px 0;height:240px;border-bottom:1px solid #fff}
+.a_gallery .gallery{padding:40px 0 25px 0;border-bottom:1px solid #fff}
 .a_gallery .info_part1{float:left;padding:3px 20px 0;width:140px}
 .a_gallery .info_part2{float:left;width:300px;text-align:left}
 .a_gallery .info_part3{position:relative;overflow:hidden}
@@ -607,5 +607,44 @@ width:100%;}
 }
 .ysjnbtab th{border-right:1px solid #fff;width:75px;text-align: center}
 .ysjnbtab td{padding-left:15px;}
+
+
+.alogin{float: right;position: relative;}
+.myinfo{
+    float: right;
+    line-height: 30px;
+    margin-top: 12px;
+}
+.myinfo b{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 5px;
+}
+.menu-bd-panel{
+    display: none;
+    position: absolute;
+    right:-10%;
+    left:-10%;
+    top:42px;
+    z-index:1;
+    background:#252c34;
+    padding:20px 0 5px 0;
+}
+.menu-bd-panel a{
+    display: block;
+    line-height: 30px;
+}
+.menu-bd-panel a:last-child{
+    border-top:1px solid #444;
+}
+.alogin:hover .menu-bd-panel{
+    display: block;
+}
+
+
 
 
