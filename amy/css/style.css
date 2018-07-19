@@ -776,7 +776,143 @@ width:100%;}
 }
 
 .proinfor{float: right;width:380px;}
-
-
-
+.hlcats{
+    margin-top:24px;
+}
+.hlcatstitle{
+    text-align: left;font-size:14px;line-height: 36px;
+    padding-left: 40px;
+    background:url(../images/icon_02.png) 11px center no-repeat;
+}
+.hlcats ul{
+    background:#fff;
+    border:1px solid #eee;padding:25px 0 25px 25px;
+}
+.hlcats ul li{
+    float: left;
+    min-width:95px;
+    line-height: 36px;
+    margin-right:15px;
+    margin-bottom:8px;
+    background:#e1e1e1;
+}
+.hlcats ul li:hover{
+    background:#7bbb5e;
+}
+.hlcats ul li a{color:#999999;}
+.hlcats ul li:hover a{color:#fff;}
+.gmdiv{
+    background:#fff;
+    padding:0 10px 30px 25px;
+}
+.gminfo .checkout{
+    float: left;
+    width:160px;border:0;border-radius: 0;margin-right: 10px;
+    border:1px solid #ffbcbc;
+    height:38px;
+    background:#ffebeb;
+    color:#ff0000;
+}
+.gminfo .addtocart{
+    float: left;
+    width:160px;border:0;border-radius: 0;
+    border:1px solid #ff0000;
+    height:38px;
+    background:#ff0000;
+    color:#fff;
+}
+.gminfo ul{margin-bottom: 30px;}
+.gminfo ul li{
+    float: left;
+    width:100%;
+}
+.gminfo ul p{
+    float: left;
+    line-height:40px;
+}
+.gminfo ul p:first-child{
+    width:90px;
+    text-align: left;
+    color:#999;
+}
+.gminfo .martprice{
+    text-decoration: line-through;
+    font-size:10px;
+    color:#999;
+}
+.gminfo .danwei{
+    padding-left:50px;
+    color:red;
+}
+.gminfo .saleprice{
+    font-size:20px;
+    color:red;
+}
+.gminfo .wgyh{
+    color:#fff;
+    background:#ff7200;
+    padding:2px 3px;
+    margin-left:10px;
+}
+.gminfo .manjian{
+    color:red;
+    border:1px solid red;
+    padding:2px;
+    border-radius: 2px;
+}
+.gminfo .manjiandesc{
+    color:#b5621b;padding-left:5px;
+}
+.gminfo .guige{
+    padding:20px 0 10px 0;
+}
+.gminfo  p input{
+    border:1px solid #b8b7bd;
+    border-radius: 0;
+    line-height: 33px;
+    padding:0 10px;
+    color:#000;
+    margin-right: 5px;
+}
+.gminfo .selected{
+    border:1px solid red;
+    box-shadow: 0 0 0 1px red;
+    background:url(../images/selected.png) no-repeat right bottom;
+}
+.gmqty{
+    float: left;
+    background:#a7a6ac;
+    padding:1px;
+    width:59px;
+}
+.gmqty input{
+    float: left;
+    width:40px;
+    height:33px;
+    line-height: 33px;
+    border:0;
+    padding:5px;
+    color:#999;
+}
+.gmqty span{
+    float:left;
+    color:#666;
+    width:16px;height:16px;background:#f1f1f1;
+    margin-left:1px;
+    line-height: 16px;
+}
+.gmqty .jia{margin-bottom:1px;}
+.zhekou{
+    position: relative;
+}
+.zhekou img{
+    display: block;
+}
+.countdown span{
+    position: absolute;top: 9px;width:16px;height:16px;text-align: center;
+}
+.countdown .dday{right: 155px;}
+.countdown .dhour{right: 119px;}
+.countdown .dmin{right: 83px;}
+.countdown .dsec{right: 47px;}
 
