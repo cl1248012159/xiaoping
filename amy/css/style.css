@@ -682,3 +682,101 @@ width:100%;}
     background:#f4f4f4;
 }
 
+.a_gallery .product .bread{
+    background:none;
+    margin-top:0;
+}
+.proinfo{
+   
+}
+.proinfol{
+    float: left;
+    width:800px;
+}
+.proinfol table{
+    background:#e1e1e1;
+    border:1px solid #eee;
+}
+.proinfol table th,
+.proinfol table td{
+    border-bottom:1px solid #e1e1e1;
+    font-size:14px;
+    line-height: 40px;
+}
+.proinfol table td{background:#fff;padding:0 8px;}
+.proinfol table td.jjdesc{line-height: 20px;padding:8px;}
+.proinfol table th{color:#999;width:132px;vertical-align: middle;text-align: center;box-shadow: 0 0 0 2px #fff inset;}
+.proimages{margin-top:32px;}
+.smallimages{width:740px;margin:0 auto;margin-top:21px;}
+.smallimages img{
+    width:180px;
+    height:120px;
+}
+.smallimages .owl-controls{position: relative;}
+.smallimages .owl-nav{font-size:0;}
+.smallimages .owl-prev{position: absolute;z-index:1;height:21px;width:13px;left:-30px;top:-70px;background:url(../images/to-left-2.png) no-repeat;}
+.smallimages .owl-next{position: absolute;z-index:1;height:21px;width:13px;right:-30px;top:-70px;background:url(../images/to-right-2.png) no-repeat;}
+
+
+.profav{
+    font-size:12px;
+    color:#aaa;
+    text-align: left;
+    padding:10px 10px 10px 45px;
+    background:url(../images/favxing.png) no-repeat 30px center;
+}
+
+.desctab{}
+.tablis{
+    color:#666;
+    border:1px solid #e5e5e5;
+}
+.tablis li{
+    float: left;
+    padding:0 40px;
+    line-height: 40px;
+    border-left:1px solid #f4f4f4;
+    border-right:1px solid #f4f4f4;
+}
+.tablis .active{
+    position: relative;
+    color:#0689e1;
+    background:#fff;
+    border-left:1px solid #e5e5e5;
+    border-right:1px solid #e5e5e5;
+}
+.tablis li:first-child{border-left:0;}
+.tablis .active:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    top:-1px;
+    left:0;
+    width:100%;
+    border-top:2px solid #0689e1;
+}
+.tablis .active:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    bottom:-1px;
+    left:0;
+    width:100%;
+    border-bottom:2px solid #fff;
+}
+.desctabs>div{
+    display: none;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-top:0;
+    padding:10px;
+}
+.desctabs>.active{
+    display: block;
+}
+
+.proinfor{float: right;width:380px;}
+
+
+
+
